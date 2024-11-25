@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Education Website Using HTML, CSS & JavaSCript</title>
+    
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <style>
+        .courses {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>EUREKA</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            
+        </div>
+    </nav>
+    <!--==================== END OF NAVBAR =============================-->
+
+    <section class="courses">
+        
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/main-course-1gg.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Responsive Crypto Website UI Design</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid1">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/OYND3dqP6-0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    <button class="btn btn-primary" onclick="PlayVid1()">Start</button>
+                    
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/main-course-2.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Responsive SmartHome Website UI Design</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid2">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/XJC_Kzy89iY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    <button class="btn btn-primary" onclick="PlayVid2()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/main-course-3g.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid3">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/BOF79TAIkYQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    <button class="btn btn-primary" onclick="PlayVid3()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/course-1.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Front End Development </h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid4">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/WlqoPe8-Wi0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    <button class="btn btn-primary" onclick="PlayVid4()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/course-2.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Python Programming</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid5">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/4EaYeZyzIB0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    
+                    <button class="btn btn-primary" onclick="PlayVid5()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/course-6.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Java</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid6">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/BrdUzEFT1XQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    
+                    <button class="btn btn-primary" onclick="PlayVid6()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/course-4.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Guitar</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid7">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/SUrXsAhGu98?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    
+                    <button class="btn btn-primary" onclick="PlayVid7()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/category-5.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Cloud Computing</h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid8">
+                        <iframe width="236" height="105" src="//www.youtube.com/embed/GneIpdOirZY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    
+                    <button class="btn btn-primary" onclick="PlayVid8()">Start</button>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images1/course-7.png" alt="">
+
+                </div>
+                <div class="course__info">
+
+                    <h4>Introduction to Database & SQL </h4>
+                    <p>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.  ea omnis rerum perspiciatis minima eos earum ullam voluptas laboriosam numquam, explicabo voluptatem.
+                    </p>
+                    <div id="vid9">
+                        <iframe width="236" height="105" src="images1\course-vid-6.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h1>Learn More</h1>
+                    
+                    <button class="btn btn-primary" onclick="PlayVid9()">Start</button>
+                </div>
+            </article>
+
+            
+
+            
+
+        </div>
+    </section>
+
+    <!--======================== END OF Courses =====================-->
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>EGATOR</h4></a>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Similique vero odit nulla rerum iste totam consequatur non omnis eum. 
+
+                </P>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and condations</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+01 234 567 8910</p>
+                    <p>yashmalkar517@gmail.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; YASH MALKAR</small>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="./main.js"></script>
+
+    
+    
+</body>
+</html>
